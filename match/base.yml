@@ -50,7 +50,13 @@ matches:
     replace: "┬──┬ ノ( ゜-゜ノ)"
   - trigger: ":yaybot"
     replace: "╭(•⌣•)╮"
+  - trigger: ":yay"
+    replace: "ヽ( º ᗜ º )ﾉ"
+  - trigger: ":3amcats"
+    replace: "\\( º ᗜ º )/"
   - trigger: ":woah"
+    replace: "(つ☯ᗜ☯)つ"
+  - trigger: ":gimme"
     replace: "(つ☯ᗜ☯)つ"
   - trigger: ":smiley"
     replace: "【ツ】"
@@ -64,6 +70,12 @@ matches:
     replace: " 〜(￣△￣〜)"
   - trigger: ":spread"
     replace: "◝(^⌣^)◜"
+  - trigger: ":proud"
+    replace: "<(￣︶￣)>"
+  - trigger: ":cmere"
+    replace: "╭( ･ㅂ･)و"
+  - trigger: ":fightme"
+    replace: "(ง ͠° ͟ل͜ ͡°)ง"
 
   # And much more! For more information, visit the docs: https://espanso.org/docs/
 
