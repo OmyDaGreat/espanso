@@ -1,0 +1,86 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+  # Phrase replacement
+    
+  - trigger: ":w "
+    replace: "whatcha doing"
+  
+  # Spellcheck
+  
+  - trigger: "repalce"
+    replace: "replace"
+    
+  - trigger: "reaplcea"
+    replace: "replace"
+    
+  # Font
+  
+  - trigger: ":piracy"
+    replace: "𝖕𝖎𝖗𝖆𝖈𝖞"
+
+  # Emoticons
+  
+  - trigger: ":shrug"
+    replace: "¯\\_(ツ)_/¯"
+  - trigger: ":leave"
+    replace: "ᕕ( ᐛ )ᕗ"
+  - trigger: ":point"
+    replace: "☜(ﾟヮﾟ☜)"
+  - trigger: ":snipe"
+    replace: "▄︻̷̿┻̿═━一"
+  - trigger: ":try"
+    replace: "ᕙ(⇀‸↼‶)ᕗ"
+  - trigger: ":cat"
+    replace: "ㅇㅅㅇ"
+  - trigger: ":smh"
+    replace: "(－‸ლ)"
+  - trigger: ":cool"
+    replace: "(⌐■_■)"
+  - trigger: ":flip"
+    replace: "(╯°□°）╯︵ ┻━┻"
+  - trigger: ":rest"
+    replace: "┬──┬ ノ( ゜-゜ノ)"
+  - trigger: ":yaybot"
+    replace: "╭(•⌣•)╮"
+  - trigger: ":woah"
+    replace: "(つ☯ᗜ☯)つ"
+  - trigger: ":smiley"
+    replace: "【ツ】"
+  - trigger: ":bear"
+    replace: "ฅʕ•ᴥ•ʔฅ"
+  - trigger: ":huhu"
+    replace: "█▬█ █▄█ █▬█ █▄█"
+  - trigger: ":hug"
+    replace: "( つ ◕◡◕ )つ"
+  - trigger: ":voodoo"
+    replace: " 〜(￣△￣〜)"
+  - trigger: ":spread"
+    replace: "◝(^⌣^)◜"
+
+  # And much more! For more information, visit the docs: https://espanso.org/docs/
+
+  # Print the current date
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y"
+
+  # Print the output of a shell command
+  - trigger: ":shell"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo 'Hello from your shell'"
