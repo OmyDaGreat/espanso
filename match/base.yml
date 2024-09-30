@@ -42,6 +42,8 @@ matches:
     replace: "ㅇㅅㅇ"
   - trigger: ":smh"
     replace: "(－‸ლ)"
+  - trigger: ":bruh"
+    replace: "(－‸ლ)"
   - trigger: ":cool"
     replace: "(⌐■_■)"
   - trigger: ":flip"
