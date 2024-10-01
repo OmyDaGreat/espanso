@@ -80,6 +80,8 @@ matches:
     replace: "(ง ･ㅂ･)ง"
   - trigger: ":scared"
     replace: "(◎_◎;)"
+  - trigger: ":angry"
+    replace: "(๑•̀д•́๑)"
 
   # And much more! For more information, visit the docs: https://espanso.org/docs/
 
