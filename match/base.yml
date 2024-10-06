@@ -50,7 +50,7 @@ matches:
     replace: "(╯°□°）╯︵ ┻━┻"
   - trigger: ":rest"
     replace: "┬──┬ ノ( ゜-゜ノ)"
-  - trigger: ":yaybot"
+  - trigger: ":yoy"
     replace: "╭(•⌣•)╮"
   - trigger: ":yay"
     replace: "ヽ( º ᗜ º )ﾉ"
