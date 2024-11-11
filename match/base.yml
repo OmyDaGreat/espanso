@@ -8,11 +8,6 @@
 # Matches are substitution rules: when you type the "trigger" string
 # it gets replaced by the "replace" string.
 matches:
-  # Phrase replacement
-    
-  - trigger: ":w "
-    replace: "whatcha doing"
-  
   # Spellcheck
   
   - trigger: "repalce"
@@ -82,7 +77,7 @@ matches:
     replace: "(◎_◎;)"
   - trigger: ":angry"
     replace: "(๑•̀д•́๑)"
-  - trigger: ":skull"
+  - trigger: ":sku"
     replace: "💀"
   - trigger: ":sad"
     replace: "(╥﹏╥)"
@@ -90,12 +85,14 @@ matches:
     replace: "(っ- ‸ - ς)"
   - trigger: ":weary"
     replace: "(ᗒᗣᗕ)՞"
-  - trigger: ":sadge"
-    replace: "૮(˶╥︿╥)ა"
+  - trigger: ":pls"
+    replace: "(つ╥﹏╥)つ"
   - trigger: ":conf"
     replace: "(,,>﹏<,,)"
   - trigger: ":pens"
     replace: "(ᴗ_ ᴗ。)"
+  - trigger: ":happy"
+    replace: "⸜(｡˃ ᵕ ˂ )⸝"
 
   # And much more! For more information, visit the docs: https://espanso.org/docs/
 
