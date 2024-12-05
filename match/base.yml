@@ -93,6 +93,12 @@ matches:
     replace: "(ᴗ_ ᴗ。)"
   - trigger: ":happy"
     replace: "⸜(｡˃ ᵕ ˂ )⸝"
+  - trigger: ":womp"
+    replace: "𝖜𝖔𝖒𝖕 𝖜𝖔𝖒𝖕"
+  - trigger: ":fire"
+    replace: "🔥"
+  - trigger: ":pout"
+    replace: "(˶˃⤙˂˶)"
 
   # And much more! For more information, visit the docs: https://espanso.org/docs/
 
