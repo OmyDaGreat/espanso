@@ -101,6 +101,8 @@ matches:
     replace: "(˶˃⤙˂˶)"
   - trigger: ":in"
     replace: "(っ- ‸ - ς)"
+  - trigger: ":sob"
+    replace: "😭"
 
   # And much more! For more information, visit the docs: https://espanso.org/docs/
 
