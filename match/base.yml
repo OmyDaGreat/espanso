@@ -99,10 +99,14 @@ matches:
     replace: "🔥"
   - trigger: ":pout"
     replace: "(˶˃⤙˂˶)"
-  - trigger: ":in"
-    replace: "(っ- ‸ - ς)"
   - trigger: ":sob"
     replace: "😭"
+  - trigger: ":star"
+    replace: "☆ (〃ω〃)"
+  - trigger: ":break"
+    replace: "💔"
+  - trigger: ":heart"
+    replace: "❤️"
 
   # And much more! For more information, visit the docs: https://espanso.org/docs/
 
