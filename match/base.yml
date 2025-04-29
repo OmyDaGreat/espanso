@@ -107,6 +107,10 @@ matches:
     replace: "💔"
   - trigger: ":heart"
     replace: "❤️"
+  - trigger: ":freaky"
+    replace: "𝒻𝓇𝑒𝒶𝓀𝓎"
+  - trigger: ":melt"
+    replace: "🫠"
 
   # And much more! For more information, visit the docs: https://espanso.org/docs/
 
