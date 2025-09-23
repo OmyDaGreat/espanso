@@ -1,0 +1,210 @@
+# Espanso Dice
+
+matches:
+  - triggers: [":d2", "roll d2"]
+    word: true
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+  - triggers: [":d3", "roll d3"]
+    word: true
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+  - triggers: [":d4", "roll d4"]
+    word: true
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+  - triggers: [":d6", "roll d6"]
+    word: true
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+  - triggers: [":d8", "roll d8"]
+    word: true
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+            - "7"
+            - "8"
+  - triggers: [":d10", "roll d10"]
+    word: true
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+            - "7"
+            - "8"
+            - "9"
+            - "10"
+  - triggers: [":d12", "roll d12"]
+    word: true
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+            - "7"
+            - "8"
+            - "9"
+            - "10"
+            - "11"
+            - "12"
+  - triggers: [":d20", "roll d20"]
+    word: true
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+            - "7"
+            - "8"
+            - "9"
+            - "10"
+            - "11"
+            - "12"
+            - "13"
+            - "14"
+            - "15"
+            - "16"
+            - "17"
+            - "18"
+            - "19"
+            - "20"
+  - triggers: [":d100", ":d00", "roll d100", "roll d00"]
+    word: true
+    replace: "{{output1}}{{output2}}"
+    vars:
+      - name: output1
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+            - "7"
+            - "8"
+            - "9"
+            - "10"
+      - name: output2
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+            - "7"
+            - "8"
+            - "9"
+            - "0"
+  - triggers: [":d1000", ":d000", "roll d1000", "roll d000"]
+    word: true
+    replace: "{{output1}}{{output2}}{{output3}}"
+    vars:
+      - name: output1
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+            - "7"
+            - "8"
+            - "9"
+            - "10"
+      - name: output2
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+            - "7"
+            - "8"
+            - "9"
+            - "0"
+      - name: output3
+        type: random
+        params:
+          choices:
+            - "1"
+            - "2"
+            - "3"
+            - "4"
+            - "5"
+            - "6"
+            - "7"
+            - "8"
+            - "9"
+            - "0"

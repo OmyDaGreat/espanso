@@ -1,6 +1,4 @@
 matches:
-  - trigger: ":shrug"
-    replace: "¯\_(ツ)_/¯"
   - trigger: ":lenny"
     replace: "( ͡° ͜ʖ ͡°)"
   - trigger: ":fliptable"
